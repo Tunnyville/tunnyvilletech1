@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(252, 252, 252);
     }
 
 body,
@@ -13,7 +13,6 @@ body,
         color: rgb(80, 80, 80);
     }
 
-
 body,
 html {
     height: 100%;
@@ -23,13 +22,39 @@ html {
     }
 
   
+    .mySlides {display:none}
+    .w3-tag, .fa {cursor:pointer}
+    .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+
+
+
+  body {
+      background-image: url('images/Tunnyville2.pn');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+
+
+
+
+
+
+    div {
+      background-image: '/images/1.png'
+    }
+
+
+
+  
     img {
       width: 100%;
     }
 
 
 
-
+    
 
 
 

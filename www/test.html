@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tunnyville Technologies</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="images/tunnyville-favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">   
+
+
+                <!-- sample css link -->
+                <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+                <style>
+                    html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+                    .mySlides {display:none}
+                    .w3-tag, .fa {cursor:pointer}
+                    .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+                    </style>
+       </head>
+
+<body>
+
+
+
+    <h2>The picture Element</h2>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="images/7.png">
+  <source media="(min-width: 465px)" srcset="images/8.png">
+  <img src="images/6.png" style="width:auto;">
+</picture>
+
+<br>
+<!-- This is a clickable image with usemap--> 
+<img src="images/2.png" alt="Google Cloud" style="width:350px;height:200px;" usemap="#Google Cloud">
+
+
+
+<!-- This is a clickable image and javascript--> 
+<map name="Google Cloud">
+  <area shape="circle" coords="100,100,88" alt="Computer" href="locate-my-phone.html" onclick="myFunction()">
+</map>
+
+<!-- This is a javascript function for clickable image-->
+<script>
+function myFunction() {
+  alert("Just remember that you can do anything!");
+}
+</script>
+
+
+
+
+<!--
+<map name="Google Cloud">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" onclick="myFunction()">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm" onclick="myFunction()">
+    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" onclick="myFunction()">
+  </map>
+-->
+
+</body>
+</html>
